@@ -1,0 +1,23 @@
+{
+  "name": "my-turknet-tracker",
+  "version": "1.0.0",
+  "description": "This script sends HTTP request to TurkNet (https://turk.net) API service in specified time interval and shares result in Discord channel. Firstly i made this script only for me a few years ago but thought should be public.",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4olcay/my-turknet-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4olcay/my-turknet-tracker/issues"
+  },
+  "homepage": "https://github.com/4olcay/my-turknet-tracker#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
